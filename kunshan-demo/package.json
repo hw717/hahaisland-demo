@@ -1,0 +1,17 @@
+{
+  "name": "hahaisland",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "HahaIsland city playground mobile demo with five-island sailing, personalized walks and geolocated photo points",
+  "scripts": {
+    "start": "node server.mjs --port 4173",
+    "start:lan": "node server.mjs --port 4173 --host 0.0.0.0",
+    "build": "node scripts/sync-route.mjs && node scripts/check-assets.mjs",
+    "check": "node scripts/check-assets.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

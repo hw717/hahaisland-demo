@@ -1,0 +1,165 @@
+{
+  "sourceFile": "v6L3SP6qjCrXOfXKyBLTm2",
+  "section": "10.23修改",
+  "retrievedAt": "2026-10-26",
+  "assets": [
+    {
+      "file": "01ffb.svg",
+      "sha256": "20b499c855863b2b570728fc772a5b76073282a844624ec2f1e2e3222e06fb1d"
+    },
+    {
+      "file": "0219d.svg",
+      "sha256": "ed2af111ea09f00819b7d3f0d1b2c8f13f68d30c1b2215f4fb53622e2f92e5ee"
+    },
+    {
+      "file": "021de.svg",
+      "sha256": "f55c4ffe1197d09b7ba0427db1d798400c47508df9c0f77b10f1cb2cdb72d548"
+    },
+    {
+      "file": "0d443.svg",
+      "sha256": "074334de3a8b282232dac02e3e67a90258543c19612340e379638734070e6e8c"
+    },
+    {
+      "file": "1030a.svg",
+      "sha256": "69732a8866e5fd024b2c405af5d2fb48cbdba6913b8cf20e154c0f6a3c8bbd79"
+    },
+    {
+      "file": "15bef.png",
+      "sha256": "ba6c40076a47ba4b611cc99de20b04ace641fb622b812316c7c1356e0df8fda4"
+    },
+    {
+      "file": "1d1eb.svg",
+      "sha256": "b7a452ad03e198cc88bb02689ab01dbb5f2d51aedfc87b2e2675f212cd41e733"
+    },
+    {
+      "file": "1f6e3.svg",
+      "sha256": "96aeffc071abe97d47748a2594c9e0aa10c277b1f851495b45425594743383e5"
+    },
+    {
+      "file": "1ffc4.svg",
+      "sha256": "40f1d251eae12db5738140f35510694e3cb8e8bd8bed7986bcce8a9ef14bec90"
+    },
+    {
+      "file": "2a28e.svg",
+      "sha256": "cd36bd942868f52666e671a54f8ab69d7f460b1f1366f6cf67ac0248ba0891e6"
+    },
+    {
+      "file": "46816.svg",
+      "sha256": "7b8c650b207b60ce93331372eb9c5fda72dc6fd156c76fce220425366cac0595"
+    },
+    {
+      "file": "4d2bb.png",
+      "sha256": "4dd4f838535d0713db7a950366d017eff0cd351e2615719ea9c6a41620216f44"
+    },
+    {
+      "file": "4f67d.png",
+      "sha256": "eae8d2a56c519a5d3251ef3b249b7ae4d6a53ae41c0f6c7c029f56c9294cfa25"
+    },
+    {
+      "file": "75ac3.svg",
+      "sha256": "3107a5027c31776523a5bc591d63d90796df83f4551d2437da2c9b0291dca21d"
+    },
+    {
+      "file": "7652b.png",
+      "sha256": "d8fae7e2ceffef0cb50081ca72e1c4e186a12f89bb1d3a956e8c586ae82bd71e"
+    },
+    {
+      "file": "7a7a1.svg",
+      "sha256": "31ac92dc32e72e29bcd7b114f91416ef621bc9aafcf985b8adde8730fb3951de"
+    },
+    {
+      "file": "7cea4.svg",
+      "sha256": "21e14cdada5414e6de6b0b2f8a91728a19796a6ce3e59659aa2db49ee564e16a"
+    },
+    {
+      "file": "865da.svg",
+      "sha256": "fbadaf2619fb8e0712410e2bd4780a3bbcd1832515b38e26ca994bb1deca7779"
+    },
+    {
+      "file": "86bce.svg",
+      "sha256": "6c0231069bd53ed2e3454d6a2f65b9c4901a11e73e74facb62d48b3cd1cd6dee"
+    },
+    {
+      "file": "8d2e4.svg",
+      "sha256": "48289029d338388cdbc70343d4d8c3975fb8b10adf318d7463965da7b2bdde65"
+    },
+    {
+      "file": "96734.svg",
+      "sha256": "a4142d4ca0bcd61bda58523f94ea01c1ae6f6ffcd1d0c442be99c5e30153f624"
+    },
+    {
+      "file": "99cb5.svg",
+      "sha256": "6a00574d6acfcd814320f403b3cc5065b8e35060a98a2c055dfe1bbc81ca8156"
+    },
+    {
+      "file": "9d302.svg",
+      "sha256": "5f60e51b65bf49beecab1990810ee18c87e39242bed5f6a640756114b7c14e3d"
+    },
+    {
+      "file": "9df65.svg",
+      "sha256": "0fc896c6d96e251963cc1aaaa8bdbed0d769f6c6522f00b0218fcde836ae91f7"
+    },
+    {
+      "file": "a7207.png",
+      "sha256": "3cbed522904a595d885e4066c4074048b799d54a1243febffd2355c1f6cc3a00"
+    },
+    {
+      "file": "a7745.svg",
+      "sha256": "c5d5872c09364f690ee47d07d2f46e81eeb5a836696cd3a85e0a9bbfc2add401"
+    },
+    {
+      "file": "af517.svg",
+      "sha256": "476f6d459ab6e87343bbd3993051979a9de4b5658f006089b677b02e6b6f5af0"
+    },
+    {
+      "file": "ba8c4.svg",
+      "sha256": "6c52c7bef229392be365b8732182a86ef81792b7d83bdd645830eaf8149ac4ee"
+    },
+    {
+      "file": "c4132.svg",
+      "sha256": "a770634a90e9dfe77121845dce2437b2cd42704160f1306ad68cfd08e13283ec"
+    },
+    {
+      "file": "c8ea7.png",
+      "sha256": "147727d422cea3c0f2d2e1c809e1ac2214a19463592da676fd4b1f2952431a12"
+    },
+    {
+      "file": "ce305.png",
+      "sha256": "3b24ce0854bd9cc0b513506decb3c8200e82f556e7ed8fd7d07cfd5391844917"
+    },
+    {
+      "file": "cf731.png",
+      "sha256": "88451c8b7a0eea854bbc37f68eb8fb6012412a764d28f4d78010c77b8077a818"
+    },
+    {
+      "file": "d28c1.svg",
+      "sha256": "ad0381a258fdc2c6e152a80b59f68c58b24f58e3d15e6f2a77d6145b87c83c75"
+    },
+    {
+      "file": "d66c5.svg",
+      "sha256": "69dad80fc890d064500897461c5ae063b19d6ce96ea61d7650db25b142c59985"
+    },
+    {
+      "file": "e7b37.svg",
+      "sha256": "a1612b955d2589f19c5cb2edc6b237aac3bbefd48ec6b304e33c809c0c4ae977"
+    },
+    {
+      "file": "e8e4d.svg",
+      "sha256": "6d2b4217a00788f30ea13bae2a1e0b543ac33cce640a651a22058e47af2c7e4f"
+    },
+    {
+      "file": "ee676.png",
+      "sha256": "246218b6d65bf68e5cb4dab3a6819c35540349eb9752e6a1a7d8be8f53838352"
+    },
+    {
+      "file": "f89a9.svg",
+      "sha256": "ddff82f8efabd1b9de6d3bd31afe9aee0f147ba916d8d06e73264bcca2fbc715"
+    },
+    {
+      "file": "60b4c.png",
+      "frame": "38:6016 / 38:6122",
+      "usage": "Original archipelago world; movable boat rendered separately",
+      "sha256": "4717651e42b7145ef4a350770b1101879e653e28c11e868ebbf772936dcc345d"
+    }
+  ]
+}

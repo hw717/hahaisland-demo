@@ -1,0 +1,1297 @@
+{
+  "version": 1,
+  "crs": "WGS84",
+  "bounds": {
+    "north": 40.0112,
+    "south": 39.9928,
+    "west": 116.3122,
+    "east": 116.3312
+  },
+  "datasets": {
+    "tsinghua-poi": {
+      "label": "奥德赛校园地标",
+      "pointLabel": "校园地标",
+      "source": "Tsinghua POI",
+      "categoryColors": {
+        "历史建筑": "#5b2c83",
+        "人文景观": "#8d5a2b",
+        "自然景观": "#2f7d4a",
+        "公共建筑": "#2563a5",
+        "教学建筑": "#3b6f9f",
+        "体育设施": "#d46b1f",
+        "生活设施": "#a63b72"
+      },
+      "points": [
+        {
+          "id": "poi-01",
+          "name": "二校门",
+          "lat": 39.99971,
+          "lng": 116.31829,
+          "category": "历史建筑",
+          "note": "清华路上的标志性老校门。",
+          "accuracy": "OSM独立点位",
+          "solar": {
+            "svf": 0.51,
+            "canopy": 0.43,
+            "lamp": 0.18,
+            "horizon": [
+              3,
+              27,
+              34,
+              10,
+              8,
+              12,
+              36,
+              26
+            ]
+          }
+        },
+        {
+          "id": "poi-02",
+          "name": "大礼堂",
+          "lat": 40.00244,
+          "lng": 116.31827,
+          "category": "历史建筑",
+          "note": "清华大学大礼堂。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.52,
+            "canopy": 0.43,
+            "lamp": 0.14,
+            "horizon": [
+              7,
+              7,
+              22,
+              16,
+              4,
+              11,
+              0,
+              7
+            ]
+          }
+        },
+        {
+          "id": "poi-03",
+          "name": "清华学堂",
+          "lat": 40.00117,
+          "lng": 116.31945,
+          "category": "历史建筑",
+          "note": "清华学堂大楼。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.18,
+            "canopy": 0.6,
+            "lamp": 0.19,
+            "horizon": [
+              32,
+              33,
+              29,
+              45,
+              42,
+              44,
+              26,
+              33
+            ]
+          }
+        },
+        {
+          "id": "poi-04",
+          "name": "水木清华",
+          "lat": 40.00225,
+          "lng": 116.3167,
+          "category": "自然景观",
+          "note": "工字厅北侧的水木清华景区。",
+          "accuracy": "景区中心点",
+          "solar": {
+            "svf": 0.31,
+            "canopy": 0.67,
+            "lamp": 0.15,
+            "horizon": [
+              2,
+              4,
+              8,
+              11,
+              6,
+              13,
+              2,
+              5
+            ]
+          }
+        },
+        {
+          "id": "poi-05",
+          "name": "近春园",
+          "lat": 40.00005,
+          "lng": 116.31404,
+          "category": "自然景观",
+          "note": "近春园遗址及荷塘景区。",
+          "accuracy": "OSM园区中心",
+          "solar": {
+            "svf": 0.11,
+            "canopy": 0.9,
+            "lamp": 0.41,
+            "horizon": [
+              2,
+              3,
+              6,
+              0,
+              0,
+              2,
+              1,
+              4
+            ]
+          }
+        },
+        {
+          "id": "poi-06",
+          "name": "工字厅",
+          "lat": 40.00173,
+          "lng": 116.31686,
+          "category": "历史建筑",
+          "note": "清华园传统建筑群核心。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.4,
+            "canopy": 0.59,
+            "lamp": 0.03,
+            "horizon": [
+              0,
+              9,
+              23,
+              23,
+              12,
+              13,
+              17,
+              7
+            ]
+          }
+        },
+        {
+          "id": "poi-07",
+          "name": "图书馆老馆",
+          "lat": 40.0034,
+          "lng": 116.3186,
+          "category": "历史建筑",
+          "note": "清华大学图书馆老馆。",
+          "accuracy": "建筑中心校准",
+          "solar": {
+            "svf": 0.38,
+            "canopy": 0.5,
+            "lamp": 0.25,
+            "horizon": [
+              32,
+              32,
+              20,
+              14,
+              9,
+              1,
+              16,
+              33
+            ]
+          }
+        },
+        {
+          "id": "poi-08",
+          "name": "日晷",
+          "lat": 40.00078,
+          "lng": 116.31842,
+          "category": "人文景观",
+          "note": "大礼堂前草坪南端的日晷。",
+          "accuracy": "OSM独立点位",
+          "solar": {
+            "svf": 0.63,
+            "canopy": 0.29,
+            "lamp": 0.35,
+            "horizon": [
+              3,
+              19,
+              9,
+              11,
+              8,
+              7,
+              8,
+              15
+            ]
+          }
+        },
+        {
+          "id": "poi-09",
+          "name": "西体育馆",
+          "lat": 40.00375,
+          "lng": 116.31505,
+          "category": "体育设施",
+          "note": "清华大学西区体育馆。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.23,
+            "canopy": 0.63,
+            "lamp": 0.11,
+            "horizon": [
+              3,
+              3,
+              0,
+              3,
+              11,
+              13,
+              15,
+              13
+            ]
+          }
+        },
+        {
+          "id": "poi-10",
+          "name": "科学馆",
+          "lat": 40.00156,
+          "lng": 116.31774,
+          "category": "历史建筑",
+          "note": "大礼堂前草坪西侧的科学馆。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.51,
+            "canopy": 0.29,
+            "lamp": 0.24,
+            "horizon": [
+              20,
+              10,
+              5,
+              4,
+              13,
+              20,
+              25,
+              12
+            ]
+          }
+        },
+        {
+          "id": "poi-11",
+          "name": "闻亭",
+          "lat": 40.00243,
+          "lng": 116.3174,
+          "category": "人文景观",
+          "note": "大礼堂西侧，原钟亭。",
+          "accuracy": "地标关系校准",
+          "solar": {
+            "svf": 0.42,
+            "canopy": 0.55,
+            "lamp": 0.14,
+            "horizon": [
+              11,
+              2,
+              15,
+              8,
+              11,
+              6,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "poi-12",
+          "name": "自清亭",
+          "lat": 40.00213,
+          "lng": 116.31731,
+          "category": "人文景观",
+          "note": "水木清华与大礼堂一带的自清亭。",
+          "accuracy": "OSM独立点位",
+          "solar": {
+            "svf": 0.41,
+            "canopy": 0.57,
+            "lamp": 0.13,
+            "horizon": [
+              6,
+              5,
+              15,
+              28,
+              16,
+              10,
+              2,
+              0
+            ]
+          }
+        },
+        {
+          "id": "poi-13",
+          "name": "西南联大纪念碑",
+          "lat": 39.99953,
+          "lng": 116.317,
+          "category": "人文景观",
+          "note": "工字厅南侧、甲所与丙所一带的西南联合大学纪念碑。",
+          "accuracy": "OSM独立点位",
+          "solar": {
+            "svf": 0.39,
+            "canopy": 0.61,
+            "lamp": 0.07,
+            "horizon": [
+              4,
+              15,
+              7,
+              6,
+              13,
+              16,
+              9,
+              4
+            ]
+          }
+        },
+        {
+          "id": "poi-14",
+          "name": "古月堂",
+          "lat": 40.00121,
+          "lng": 116.31584,
+          "category": "历史建筑",
+          "note": "工字厅西侧的清代院落。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.24,
+            "canopy": 0.63,
+            "lamp": 0.18,
+            "horizon": [
+              13,
+              13,
+              10,
+              0,
+              3,
+              9,
+              7,
+              8
+            ]
+          }
+        },
+        {
+          "id": "poi-15",
+          "name": "新清华学堂",
+          "lat": 40.00034,
+          "lng": 116.3234,
+          "category": "公共建筑",
+          "note": "清华路与学堂路交叉口东北侧。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.28,
+            "canopy": 0.58,
+            "lamp": 0.23,
+            "horizon": [
+              27,
+              20,
+              18,
+              11,
+              0,
+              0,
+              6,
+              21
+            ]
+          }
+        },
+        {
+          "id": "poi-16",
+          "name": "清华大学艺术博物馆",
+          "lat": 40.00058,
+          "lng": 116.32948,
+          "category": "公共建筑",
+          "note": "清华大学艺术博物馆。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.53,
+            "canopy": 0.26,
+            "lamp": 0.27,
+            "horizon": [
+              9,
+              8,
+              0,
+              11,
+              2,
+              7,
+              2,
+              7
+            ]
+          }
+        },
+        {
+          "id": "poi-17",
+          "name": "主楼",
+          "lat": 39.9993,
+          "lng": 116.32645,
+          "category": "公共建筑",
+          "note": "东区中央主楼建筑群。",
+          "accuracy": "建筑主入口校准",
+          "solar": {
+            "svf": 0.66,
+            "canopy": 0.11,
+            "lamp": 0.32,
+            "horizon": [
+              18,
+              8,
+              3,
+              8,
+              5,
+              9,
+              4,
+              9
+            ]
+          }
+        },
+        {
+          "id": "poi-18",
+          "name": "第六教学楼",
+          "lat": 40.00157,
+          "lng": 116.32344,
+          "category": "教学建筑",
+          "note": "第六教学楼（六教）中心区。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.32,
+            "canopy": 0.37,
+            "lamp": 0.37,
+            "horizon": [
+              38,
+              37,
+              38,
+              35,
+              27,
+              14,
+              14,
+              13
+            ]
+          }
+        },
+        {
+          "id": "poi-19",
+          "name": "新土木馆",
+          "lat": 40.00274,
+          "lng": 116.32349,
+          "category": "教学建筑",
+          "note": "新土木馆。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.23,
+            "canopy": 0.54,
+            "lamp": 0.17,
+            "horizon": [
+              10,
+              19,
+              29,
+              16,
+              10,
+              15,
+              12,
+              19
+            ]
+          }
+        },
+        {
+          "id": "poi-20",
+          "name": "紫荆学生公寓",
+          "lat": 40.01035,
+          "lng": 116.3247,
+          "category": "生活设施",
+          "note": "紫荆学生公寓区中心位置。",
+          "accuracy": "区域中心点",
+          "solar": {
+            "svf": 0.39,
+            "canopy": 0.31,
+            "lamp": 0.3,
+            "horizon": [
+              21,
+              20,
+              11,
+              18,
+              23,
+              16,
+              13,
+              29
+            ]
+          }
+        },
+        {
+          "id": "poi-21",
+          "name": "天文台",
+          "lat": 40.00314,
+          "lng": 116.31294,
+          "category": "教学建筑",
+          "note": "清华大学天文台。",
+          "accuracy": "Wikidata/OSM点位",
+          "solar": {
+            "svf": 0.62,
+            "canopy": 0.23,
+            "lamp": 0.08,
+            "horizon": [
+              19,
+              13,
+              13,
+              6,
+              2,
+              12,
+              13,
+              13
+            ]
+          }
+        },
+        {
+          "id": "poi-22",
+          "name": "情人坡",
+          "lat": 40.00438,
+          "lng": 116.31936,
+          "category": "自然景观",
+          "note": "图书馆东北侧的情人坡。",
+          "accuracy": "OSM独立点位",
+          "solar": {
+            "svf": 0.21,
+            "canopy": 0.85,
+            "lamp": 0.19,
+            "horizon": [
+              7,
+              3,
+              10,
+              7,
+              10,
+              14,
+              7,
+              12
+            ]
+          }
+        },
+        {
+          "id": "poi-23",
+          "name": "荷塘",
+          "lat": 40.0003,
+          "lng": 116.31378,
+          "category": "自然景观",
+          "note": "近春园内、与《荷塘月色》相关的荷塘区域。",
+          "accuracy": "景观中心点",
+          "solar": {
+            "svf": 0.28,
+            "canopy": 0.83,
+            "lamp": 0.1,
+            "horizon": [
+              26,
+              17,
+              5,
+              1,
+              0,
+              2,
+              5,
+              1
+            ]
+          }
+        },
+        {
+          "id": "poi-24",
+          "name": "紫荆操场",
+          "lat": 40.00867,
+          "lng": 116.32334,
+          "category": "体育设施",
+          "note": "紫荆学生区内的紫荆操场。",
+          "accuracy": "OSM场地中心",
+          "solar": {
+            "svf": 0.61,
+            "canopy": 0.29,
+            "lamp": 0.11,
+            "horizon": [
+              9,
+              3,
+              0,
+              0,
+              7,
+              2,
+              8,
+              4
+            ]
+          }
+        },
+        {
+          "id": "poi-25",
+          "name": "西大操场",
+          "lat": 40.00378,
+          "lng": 116.31622,
+          "category": "体育设施",
+          "note": "西体育馆东侧的西大操场。",
+          "accuracy": "OSM场地中心",
+          "solar": {
+            "svf": 0.33,
+            "canopy": 0.54,
+            "lamp": 0.25,
+            "horizon": [
+              6,
+              7,
+              15,
+              6,
+              0,
+              11,
+              13,
+              3
+            ]
+          }
+        },
+        {
+          "id": "poi-26",
+          "name": "东大操场",
+          "lat": 40.00444,
+          "lng": 116.32613,
+          "category": "体育设施",
+          "note": "东区主操场。",
+          "accuracy": "OSM场地中心",
+          "solar": {
+            "svf": 0.51,
+            "canopy": 0.29,
+            "lamp": 0.24,
+            "horizon": [
+              0,
+              12,
+              17,
+              12,
+              12,
+              11,
+              17,
+              10
+            ]
+          }
+        },
+        {
+          "id": "poi-27",
+          "name": "综合体育馆",
+          "lat": 40.0031,
+          "lng": 116.32628,
+          "category": "体育设施",
+          "note": "东大操场南侧的综合体育馆。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.3,
+            "canopy": 0.37,
+            "lamp": 0.85,
+            "horizon": [
+              1,
+              8,
+              0,
+              7,
+              1,
+              0,
+              0,
+              8
+            ]
+          }
+        },
+        {
+          "id": "poi-28",
+          "name": "北体育馆",
+          "lat": 40.00637,
+          "lng": 116.32669,
+          "category": "体育设施",
+          "note": "清华大学北体育馆。",
+          "accuracy": "OSM建筑中心",
+          "solar": {
+            "svf": 0.51,
+            "canopy": 0.33,
+            "lamp": 0.35,
+            "horizon": [
+              8,
+              5,
+              3,
+              0,
+              3,
+              0,
+              10,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    "tsinghua-sculptures": {
+      "label": "文艺岛人物雕塑",
+      "pointLabel": "人物雕塑",
+      "source": "tsinghua-sculptures",
+      "categoryColors": {
+        "人物雕塑": "#d9534f",
+        "历史原址": "#6b7280"
+      },
+      "accuracyLabels": {
+        "exact": "OSM 精确 POI",
+        "building": "建筑级定位",
+        "landmark": "地标关系定位",
+        "historical": "历史原址"
+      },
+      "points": [
+        {
+          "id": "sculpture-01",
+          "name": "孔子",
+          "lat": 40.0007,
+          "lng": 116.3141,
+          "category": "人物雕塑",
+          "place": "近春园遗址东侧 / 荷花池中心岛（荒岛）",
+          "accuracy": "landmark",
+          "solar": {
+            "svf": 0.27,
+            "canopy": 0.72,
+            "lamp": 0.39,
+            "horizon": [
+              4,
+              7,
+              7,
+              3,
+              0,
+              9,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "id": "sculpture-02",
+          "name": "吴晗",
+          "lat": 40.00082,
+          "lng": 116.31336,
+          "category": "人物雕塑",
+          "place": "近春园遗址西侧，晗亭附近",
+          "accuracy": "landmark",
+          "solar": {
+            "svf": 0.35,
+            "canopy": 0.75,
+            "lamp": 0.04,
+            "horizon": [
+              3,
+              3,
+              0,
+              4,
+              3,
+              1,
+              9,
+              8
+            ]
+          }
+        },
+        {
+          "id": "sculpture-03",
+          "name": "闻一多",
+          "lat": 40.00224,
+          "lng": 116.31748,
+          "category": "人物雕塑",
+          "place": "大礼堂西侧，闻亭下方小山南面",
+          "accuracy": "landmark",
+          "solar": {
+            "svf": 0.43,
+            "canopy": 0.53,
+            "lamp": 0.14,
+            "horizon": [
+              8,
+              6,
+              12,
+              21,
+              17,
+              8,
+              2,
+              0
+            ]
+          }
+        },
+        {
+          "id": "sculpture-04",
+          "name": "朱自清",
+          "lat": 40.00222,
+          "lng": 116.31621,
+          "category": "人物雕塑",
+          "place": "水木清华北岸（池畔）",
+          "accuracy": "exact",
+          "solar": {
+            "svf": 0.28,
+            "canopy": 0.66,
+            "lamp": 0.15,
+            "horizon": [
+              0,
+              3,
+              3,
+              11,
+              22,
+              7,
+              3,
+              11
+            ]
+          }
+        },
+        {
+          "id": "sculpture-05",
+          "name": "马约翰",
+          "lat": 40.00332,
+          "lng": 116.31536,
+          "category": "人物雕塑",
+          "place": "西大操场西侧、老体育馆（西区体育馆）南侧",
+          "accuracy": "exact",
+          "solar": {
+            "svf": 0.4,
+            "canopy": 0.47,
+            "lamp": 0.19,
+            "horizon": [
+              33,
+              21,
+              1,
+              8,
+              34,
+              25,
+              11,
+              22
+            ]
+          }
+        },
+        {
+          "id": "sculpture-06",
+          "name": "梁思成（建筑馆）",
+          "lat": 39.99842,
+          "lng": 116.32755,
+          "category": "人物雕塑",
+          "place": "建筑馆",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.4,
+            "canopy": 0.33,
+            "lamp": 0.36,
+            "horizon": [
+              32,
+              50,
+              33,
+              47,
+              34,
+              37,
+              48,
+              40
+            ]
+          }
+        },
+        {
+          "id": "sculpture-07",
+          "name": "梁思成、林徽因",
+          "lat": 39.99382,
+          "lng": 116.31615,
+          "category": "人物雕塑",
+          "place": "清华附小操场南边；附小资料亦指向鸣鼓亭前一带",
+          "accuracy": "landmark",
+          "solar": {
+            "svf": 0.17,
+            "canopy": 0.61,
+            "lamp": 0.21,
+            "horizon": [
+              15,
+              19,
+              7,
+              12,
+              19,
+              15,
+              20,
+              17
+            ]
+          }
+        },
+        {
+          "id": "sculpture-08",
+          "name": "梁启超、赵元任、王国维、陈寅恪",
+          "label": "梁启超 / 赵元任 / 王国维 / 陈寅恪",
+          "lat": 40.00025,
+          "lng": 116.32948,
+          "category": "人物雕塑",
+          "place": "清华大学艺术博物馆南侧，国学四大导师群雕",
+          "accuracy": "landmark",
+          "solar": {
+            "svf": 0.54,
+            "canopy": 0.29,
+            "lamp": 0.24,
+            "horizon": [
+              28,
+              43,
+              19,
+              14,
+              5,
+              12,
+              18,
+              33
+            ]
+          }
+        },
+        {
+          "id": "sculpture-09",
+          "name": "王国维纪念碑",
+          "lat": 40.00053,
+          "lng": 116.31785,
+          "category": "人物雕塑",
+          "place": "第一教室楼北端后山，王国维纪念碑",
+          "accuracy": "exact",
+          "solar": {
+            "svf": 0.63,
+            "canopy": 0.29,
+            "lamp": 0.35,
+            "horizon": [
+              17,
+              7,
+              5,
+              28,
+              29,
+              3,
+              0,
+              9
+            ]
+          }
+        },
+        {
+          "id": "sculpture-10",
+          "name": "韦杰三",
+          "lat": 40.00251,
+          "lng": 116.31682,
+          "category": "人物雕塑",
+          "place": "“水木清华”北面土山，韦杰三纪念断碑",
+          "accuracy": "landmark",
+          "solar": {
+            "svf": 0.3,
+            "canopy": 0.68,
+            "lamp": 0.15,
+            "horizon": [
+              4,
+              7,
+              5,
+              9,
+              6,
+              6,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "sculpture-11",
+          "name": "施滉（老图书馆）",
+          "lat": 40.00324,
+          "lng": 116.31869,
+          "category": "人物雕塑",
+          "place": "老图书馆正厅北壁，施滉纪念壁碑",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.44,
+            "canopy": 0.46,
+            "lamp": 0.26,
+            "horizon": [
+              24,
+              21,
+              24,
+              16,
+              10,
+              4,
+              8,
+              19
+            ]
+          }
+        },
+        {
+          "id": "sculpture-12",
+          "name": "施滉（第三教学楼）",
+          "lat": 40.00135,
+          "lng": 116.3226,
+          "category": "人物雕塑",
+          "place": "第三教学楼外墙壁雕",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.29,
+            "canopy": 0.47,
+            "lamp": 0.31,
+            "horizon": [
+              34,
+              36,
+              30,
+              35,
+              38,
+              37,
+              34,
+              38
+            ]
+          }
+        },
+        {
+          "id": "sculpture-13",
+          "name": "梅贻琦、蒋南翔",
+          "lat": 40.00077,
+          "lng": 116.32322,
+          "category": "人物雕塑",
+          "place": "清华大学校史馆",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.39,
+            "canopy": 0.35,
+            "lamp": 0.35,
+            "horizon": [
+              14,
+              17,
+              18,
+              48,
+              36,
+              20,
+              14,
+              13
+            ]
+          }
+        },
+        {
+          "id": "sculpture-14",
+          "name": "叶企孙（当前）",
+          "label": "叶企孙（物理楼）",
+          "lat": 40.00675,
+          "lng": 116.31558,
+          "category": "人物雕塑",
+          "place": "物理楼；资料标注 2026 年校庆迁移至物理楼",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.11,
+            "canopy": 0.76,
+            "lamp": 0.19,
+            "horizon": [
+              19,
+              16,
+              9,
+              13,
+              18,
+              15,
+              13,
+              17
+            ]
+          }
+        },
+        {
+          "id": "sculpture-15",
+          "name": "孟昭英、钟士模",
+          "lat": 40.00056,
+          "lng": 116.32756,
+          "category": "人物雕塑",
+          "place": "东主楼（孟昭英：10区大会议厅内；钟士模：计算机系系馆内）",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.29,
+            "canopy": 0.41,
+            "lamp": 0.38,
+            "horizon": [
+              21,
+              9,
+              13,
+              9,
+              22,
+              40,
+              43,
+              37
+            ]
+          }
+        },
+        {
+          "id": "sculpture-16",
+          "name": "曹本熹",
+          "lat": 40.00165,
+          "lng": 116.3304,
+          "category": "人物雕塑",
+          "place": "化工系系馆门厅内",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.47,
+            "canopy": 0.35,
+            "lamp": 0.27,
+            "horizon": [
+              26,
+              0,
+              0,
+              0,
+              31,
+              46,
+              52,
+              53
+            ]
+          }
+        },
+        {
+          "id": "sculpture-17",
+          "name": "刘仙洲",
+          "lat": 39.99652,
+          "lng": 116.32426,
+          "category": "人物雕塑",
+          "place": "精仪系馆内",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.44,
+            "canopy": 0.33,
+            "lamp": 0.22,
+            "horizon": [
+              21,
+              16,
+              4,
+              11,
+              22,
+              17,
+              12,
+              14
+            ]
+          }
+        },
+        {
+          "id": "sculpture-18",
+          "name": "陈岱孙",
+          "lat": 39.99825,
+          "lng": 116.32509,
+          "category": "人物雕塑",
+          "place": "新经管楼（经济管理学院楼内）",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.5,
+            "canopy": 0.19,
+            "lamp": 0.23,
+            "horizon": [
+              28,
+              33,
+              24,
+              37,
+              39,
+              35,
+              25,
+              41
+            ]
+          }
+        },
+        {
+          "id": "sculpture-19",
+          "name": "冯友兰",
+          "lat": 40.00277,
+          "lng": 116.32228,
+          "category": "人物雕塑",
+          "place": "图书馆文科分馆",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.2,
+            "canopy": 0.67,
+            "lamp": 0.18,
+            "horizon": [
+              5,
+              9,
+              14,
+              21,
+              27,
+              15,
+              14,
+              4
+            ]
+          }
+        },
+        {
+          "id": "sculpture-20",
+          "name": "万邦儒",
+          "lat": 40.00798,
+          "lng": 116.31473,
+          "category": "人物雕塑",
+          "place": "清华附中校园内，万邦儒校长铜像前",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.51,
+            "canopy": 0.29,
+            "lamp": 0.24,
+            "horizon": [
+              18,
+              28,
+              34,
+              32,
+              34,
+              22,
+              5,
+              14
+            ]
+          }
+        },
+        {
+          "id": "sculpture-21",
+          "name": "顾蔚云",
+          "lat": 39.99355,
+          "lng": 116.31705,
+          "category": "人物雕塑",
+          "place": "清华附小校园内；附小资料指向华宇池旁",
+          "accuracy": "landmark",
+          "solar": {
+            "svf": 0.29,
+            "canopy": 0.48,
+            "lamp": 0.24,
+            "horizon": [
+              12,
+              17,
+              20,
+              29,
+              28,
+              27,
+              14,
+              12
+            ]
+          }
+        },
+        {
+          "id": "sculpture-22",
+          "name": "吴冠中",
+          "lat": 39.99875,
+          "lng": 116.32858,
+          "category": "人物雕塑",
+          "place": "工艺美术学院天井院内",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.44,
+            "canopy": 0.13,
+            "lamp": 0.38,
+            "horizon": [
+              11,
+              2,
+              25,
+              37,
+              34,
+              45,
+              6,
+              5
+            ]
+          }
+        },
+        {
+          "id": "sculpture-23",
+          "name": "吴宓、金岳霖、蒋廷黻、雷海宗",
+          "label": "吴宓 / 金岳霖 / 蒋廷黻 / 雷海宗",
+          "lat": 40.0023,
+          "lng": 116.32248,
+          "category": "人物雕塑",
+          "place": "人文楼前厅（人文先贤群雕）",
+          "accuracy": "building",
+          "solar": {
+            "svf": 0.3,
+            "canopy": 0.53,
+            "lamp": 0.22,
+            "horizon": [
+              22,
+              14,
+              16,
+              12,
+              10,
+              10,
+              11,
+              15
+            ]
+          }
+        },
+        {
+          "id": "sculpture-24",
+          "name": "叶企孙（历史原址）",
+          "label": "叶企孙（第三教室楼原址）",
+          "lat": 40.00179,
+          "lng": 116.32242,
+          "category": "历史原址",
+          "place": "第三教室楼门厅（原址）",
+          "accuracy": "historical",
+          "solar": {
+            "svf": 0.31,
+            "canopy": 0.48,
+            "lamp": 0.28,
+            "horizon": [
+              24,
+              17,
+              13,
+              22,
+              25,
+              13,
+              12,
+              16
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Preserve byte-identical source/deployment copies on Windows and Linux.
+route-demo/vendor/LICENSE.leaflet text eol=lf
+route-demo/vendor/leaflet.css text eol=lf
+dist/route/vendor/LICENSE.leaflet text eol=lf
+dist/route/vendor/leaflet.css text eol=lf

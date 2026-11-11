@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="96" viewBox="0 0 128 96" shape-rendering="crispEdges">
+  <rect width="128" height="96" fill="#76d3d1"/>
+  <path fill="#8fe1da" d="M0 8h24v8h16v8h24v-8h24V8h24v8h16v16h-24v8H80v8H48v-8H24v-8H0z"/>
+  <path fill="#55bbbF" d="M0 56h16v-8h24v8h16v8h32v-8h24v8h16v16h-24v8H80v-8H48v8H16v-8H0z"/>
+  <path fill="#c3f4e8" d="M8 18h16v6h-8v6H0v-6h8zm64 4h24v6H80v6H64v-6h8zm32 44h16v6h8v6h-24v-6h-8v-6z"/>
+  <path fill="#3fa8b2" d="M32 68h16v5H32zm32 8h24v5H64zM104 40h16v5h-16zM8 88h24v5H8z" opacity=".72"/>
+  <path fill="#e9fff7" d="M4 44h12v-4h16v4h12v4H28v4H12v-4H4zm50 8h10v-4h18v4h12v4H78v4H62v-4h-8zm46-34h8v-4h12v4h8v4h-12v4h-12v-4h-4z" opacity=".72"/>
+  <path fill="#339eaa" d="M18 62h10v-3h14v3h8v4H36v3H24v-3h-6zm68 26h12v-3h18v3h8v4h-14v3H94v-3h-8z" opacity=".5"/>
+  <rect x="42" y="12" width="6" height="6" fill="#e9fff7"/>
+  <rect x="92" y="48" width="5" height="5" fill="#e9fff7"/>
+</svg>

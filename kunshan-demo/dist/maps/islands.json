@@ -1,0 +1,81 @@
+{
+  "version": 8,
+  "defaultIsland": "odyssey",
+  "geoReference": {
+    "label": "北邮校园示意底图",
+    "crs": "WGS84",
+    "coordinateSpace": "normalized-0-100",
+    "bounds": {"north": 39.9698, "south": 39.9532, "west": 116.3486, "east": 116.3654},
+    "defaultLocation": {"lat": 39.9615, "lng": 116.3567, "accuracy": 12},
+    "controlPoints": [
+      {"name": "西北角", "x": 0, "y": 0, "lat": 39.9698, "lng": 116.3486},
+      {"name": "东北角", "x": 100, "y": 0, "lat": 39.9698, "lng": 116.3654},
+      {"name": "西南角", "x": 0, "y": 100, "lat": 39.9532, "lng": 116.3486},
+      {"name": "东南角", "x": 100, "y": 100, "lat": 39.9532, "lng": 116.3654}
+    ]
+  },
+  "islands": [
+    {
+      "id": "odyssey", "name": "奥德赛 BASE", "shortName": "奥德赛", "subtitle": "从群岛中心启航，前往六座主题岛", "color": "#57B6B0", "softColor": "#DDF4EC", "image": "./assets/odyssey-boat.png", "map": "./assets/maps/map-base.jpg", "npc": "./assets/npc-odyssey.png?v=2", "npcName": "雅典娜", "pointDataset": "tsinghua-poi", "defaultLocation": {"lat": 40.002, "lng": 116.3217, "accuracy": 3}, "progress": 48, "x": 50, "y": 50, "scale": 0.88,
+      "hotspots": [
+        {"id":"route","x":50,"y":46,"status":"available","kicker":"奥德赛 BASE · 自由漫游","title":"群岛航线校准","description":"转动罗盘，从六座主题岛中选出今天的第一站。","duration":"3 分钟","reward":"航海印章"},
+        {"id":"nearby","x":35,"y":58,"status":"available","kicker":"奥德赛 BASE · 附近搜索","title":"附近漫游者雷达","description":"扫描海面附近正在探索的人，交换一份岛屿见闻。","duration":"5 分钟","reward":"海风碎片 ×10"},
+        {"id":"log","x":67,"y":58,"status":"available","kicker":"奥德赛 BASE · 启航打卡","title":"记录今日启航","description":"为今天的群岛旅程写下一个小目标并完成启航打卡。","duration":"2 分钟","reward":"航线经验 ×15"}
+      ]
+    },
+    {
+      "id": "art", "name": "文艺岛", "shortName": "文艺", "subtitle": "让灵感在月光下发生", "color": "#A28AD7", "softColor": "#EAE2FF", "image": "./assets/island-art.png", "map": "./assets/maps/map-art.jpg", "npc": "./assets/npc-art.png?v=2", "npcName": "朱自清", "pointDataset": "tsinghua-sculptures", "defaultLocation": {"lat": 40.002, "lng": 116.3217, "accuracy": 3}, "progress": 42, "x": 24, "y": 30, "scale": 1,
+      "hotspots": [
+        {"id":"moon","x":48,"y":28,"status":"available","kicker":"文艺岛 · 限时活动","title":"月光雕塑寻迹","description":"循着月光和线索，在岛屿上找到三件神秘雕塑。","duration":"15 分钟","reward":"月光徽章"},
+        {"id":"gallery","x":66,"y":51,"status":"available","kicker":"文艺岛 · 每日策展","title":"口袋画廊","description":"从今日灵感卡中选一幅作品，留下你的第一印象。","duration":"8 分钟","reward":"灵感碎片 ×20"},
+        {"id":"pier","x":28,"y":62,"status":"available","kicker":"文艺岛 · 漫游记录","title":"码头速写","description":"在海风里完成一张岛屿速写，收藏今天的光线。","duration":"10 分钟","reward":"速写邮票"},
+        {"id":"nearby","x":82,"y":35,"status":"available","kicker":"文艺岛 · 附近搜索","title":"附近漫游者雷达","description":"搜索文艺岛附近的漫游者，交换一份正在发生的岛屿见闻。","duration":"5 分钟","reward":"海风碎片 ×10"}
+      ]
+    },
+    {
+      "id": "healing", "name": "疗愈岛", "shortName": "疗愈", "subtitle": "给情绪留一片安静的海", "color": "#6598DC", "softColor": "#DDEBFF", "image": "./assets/island-healing.png", "map": "./assets/maps/map-healing.jpg", "npc": "./assets/npc-healing.png?v=2", "npcName": "小天使", "progress": 56, "x": 49, "y": 21, "scale": 1,
+      "hotspots": [
+        {"id":"pool","x":50,"y":50,"status":"available","kicker":"疗愈岛 · 情绪地图","title":"心情泉眼","description":"选择此刻的心情，把它轻轻放进岛屿的情绪地图。","duration":"5 分钟","reward":"静心贝壳"},
+        {"id":"gate","x":58,"y":29,"status":"available","kicker":"疗愈岛 · 声音漫步","title":"听风之门","description":"跟随三段自然声音，完成一次短暂的呼吸漫步。","duration":"6 分钟","reward":"晴空碎片 ×15"},
+        {"id":"pier","x":78,"y":62,"status":"available","kicker":"疗愈岛 · 留言与评分","title":"晚霞留言处","description":"为此刻的体验打分，留一句话给下次回来的自己。","duration":"5 分钟","reward":"共鸣星光 ×20"},
+        {"id":"nearby","x":25,"y":68,"status":"available","kicker":"疗愈岛 · 附近搜索","title":"附近漫游者雷达","description":"寻找同在疗愈岛漫步的人，匿名交换一句温柔的近况。","duration":"5 分钟","reward":"海风碎片 ×10"}
+      ]
+    },
+    {
+      "id": "graffiti", "name": "涂鸦岛", "shortName": "涂鸦", "subtitle": "把想象画进岛屿的每个角落", "color": "#ED9EB6", "softColor": "#FFE1EA", "image": "./assets/island-graffiti.png", "map": "./assets/maps/map-graffiti.jpg", "npc": "./assets/npc-graffiti.png?v=2", "npcName": "小积木", "progress": 30, "x": 76, "y": 30, "scale": 1,
+      "hotspots": [
+        {"id":"studio","x":50,"y":33,"status":"available","kicker":"涂鸦岛 · 创意贴纸","title":"会发光的屋顶","description":"描述你想象中的校园角落，选择配色，合成一张新的岛屿贴纸。","duration":"12 分钟","reward":"涂鸦喷罐"},
+        {"id":"square","x":40,"y":57,"status":"available","kicker":"涂鸦岛 · 校园拼图","title":"彩色广场拼图","description":"点选两块校园切片交换位置，还原广场里的完整图案。","duration":"10 分钟","reward":"拼图碎片 ×30"},
+        {"id":"pier","x":75,"y":63,"status":"available","kicker":"涂鸦岛 · 拍照共创","title":"拍照涂鸦实验室","description":"选择校园照片，画上你的灵感，再加入本地点亮效果并保存。","duration":"8 分钟","reward":"共创相框"},
+        {"id":"nearby","x":20,"y":35,"status":"available","kicker":"涂鸦岛 · 附近搜索","title":"附近漫游者雷达","description":"看看谁正在附近共创，交换一张像素贴纸和新的校园灵感。","duration":"5 分钟","reward":"海风碎片 ×10"}
+      ]
+    },
+    {
+      "id": "green", "name": "绿岛", "shortName": "绿岛", "subtitle": "发现城市里悄悄生长的绿色", "color": "#92BB78", "softColor": "#E4F2D9", "image": "./assets/island-green.png", "map": "./assets/maps/map-green.jpg", "npc": "./assets/npc-green.png?v=2", "npcName": "绿色独眼巨人", "progress": 67, "x": 24, "y": 66, "scale": 1,
+      "hotspots": [
+        {"id":"garden","x":52,"y":49,"status":"available","kicker":"绿岛 · 生态观察","title":"秘密花园","description":"记录三种岛上植物，完成今天的绿色观察日志。","duration":"9 分钟","reward":"嫩芽徽章"},
+        {"id":"eye","x":42,"y":27,"status":"available","kicker":"绿岛 · 循环挑战","title":"守望之眼","description":"为四种材料找到回收或堆肥的去处，让资源回到循环中。","duration":"3 分钟","reward":"能量叶片 ×20"},
+        {"id":"pier","x":75,"y":66,"status":"available","kicker":"绿岛 · 海岸记录","title":"清洁码头","description":"沿着岸线发现并标记需要清理的小角落。","duration":"7 分钟","reward":"海风贴纸"},
+        {"id":"nearby","x":22,"y":65,"status":"available","kicker":"绿岛 · 附近搜索","title":"附近漫游者雷达","description":"搜索附近的绿色观察员，交换一条低碳发现。","duration":"5 分钟","reward":"海风碎片 ×10"}
+      ]
+    },
+    {
+      "id": "animals", "name": "动物岛", "shortName": "动物", "subtitle": "和毛茸茸的朋友交换今日见闻", "color": "#F1C96B", "softColor": "#FFF0BD", "image": "./assets/island-animals.png", "map": "./assets/maps/map-animals.jpg", "npc": "./assets/npc-animals.png?v=2", "npcName": "猫猫精灵", "progress": 21, "x": 49, "y": 68, "scale": 1,
+      "hotspots": [
+        {"id":"star","x":48,"y":24,"status":"available","kicker":"动物岛 · 观察任务","title":"长颈鹿观星台","description":"找到动物们留下的三颗星星线索。","duration":"10 分钟","reward":"星星饼干"},
+        {"id":"home","x":38,"y":49,"status":"available","kicker":"动物岛 · 社群记录","title":"金色小屋","description":"听一段岛民故事，记录今天遇到的新朋友。","duration":"6 分钟","reward":"爪印 ×15"},
+        {"id":"pier","x":75,"y":64,"status":"locked","requires":"star","kicker":"动物岛 · 萤火夜游","title":"萤火码头","description":"跟随四只萤火虫，完成三轮光点节奏，收藏岛上的夜色。","duration":"3 分钟","reward":"萤火纪念章"},
+        {"id":"nearby","x":22,"y":67,"status":"available","kicker":"动物岛 · 附近搜索","title":"附近漫游者雷达","description":"寻找正在观察动物朋友的漫游者，交换一条温暖见闻。","duration":"5 分钟","reward":"海风碎片 ×10"}
+      ]
+    },
+    {
+      "id": "scifi", "name": "科幻岛", "shortName": "科幻", "subtitle": "穿过传送门，抵达下一种可能", "color": "#8686D5", "softColor": "#E2E2FF", "image": "./assets/island-scifi.png", "map": "./assets/maps/map-scifi.jpg", "npc": "./assets/npc-scifi.png?v=2", "npcName": "小机器人", "progress": 12, "x": 76, "y": 66, "scale": 1,
+      "hotspots": [
+        {"id":"portal","x":51,"y":30,"status":"available","kicker":"科幻岛 · 未来共创","title":"星环传送门","description":"写下一个未来校园设想，让星环为它生成坐标。","duration":"12 分钟","reward":"星尘芯片"},
+        {"id":"lab","x":31,"y":55,"status":"available","kicker":"科幻岛 · 想象实验","title":"蓝晶实验室","description":"分配十格空间预算，比较共享庭院与空中连廊，收藏你的未来空间方案。","duration":"5 分钟","reward":"蓝晶 ×20"},
+        {"id":"pool","x":57,"y":58,"status":"locked","requires":"portal","kicker":"科幻岛 · 传送任务","title":"镜面坐标池","description":"穿过三个能量站，避开障碍，接通镜面传送门的能量线路。","duration":"3 分钟","reward":"镜面坐标徽章"},
+        {"id":"nearby","x":80,"y":68,"status":"available","kicker":"科幻岛 · 附近搜索","title":"附近漫游者雷达","description":"扫描附近的未来探索者，交换一枚来自下一站的坐标。","duration":"5 分钟","reward":"海风碎片 ×10"}
+      ]
+    }
+  ]
+}

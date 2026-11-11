@@ -1,0 +1,19 @@
+/* 新版 UI: warm paper, orange actions and blue navigation. Route score colors
+   remain controlled by core.mjs. */
+:root{--ink:#292e2a;--muted:#8d9589;--green:#238af3;--mint:#edf6ff;--paper:#fffbf5;--line:#e8eadd;--orange:#ff9027;--shadow:0 14px 40px #3b554d14}
+body{background:#fffbf5;font-family:"Microsoft YaHei","PingFang SC",sans-serif}
+.app-header{background:#fffbf5;border-bottom-color:#eceee4;gap:22px;padding:0 26px}
+.route-home{flex-shrink:0;border:1px solid var(--line);border-radius:30px;padding:10px 15px;font-size:12px;background:white;color:#7c8979;transition:background .2s}
+.route-home:hover{background:#fff0df}
+.brand{margin-right:auto}.brand strong{letter-spacing:2px;font-size:23px}.brand-en{display:none}.brand-icon{border-radius:15px;background:#ff9027;color:white;transform:none}
+.app-header nav{gap:18px}.header-end{white-space:nowrap}.demo-tag{border-radius:10px;background:#edf6ff;color:#6486a2}
+.sidebar,.sidebar-submit{background:#fffbf5}.sidebar h1,.map-heading h2{font-family:inherit;font-weight:600;letter-spacing:0}
+.sidebar h1{font-size:30px}.map-heading h2{font-size:22px}.journey-steps{background:#fff7eb}
+.primary-button{border-radius:14px;background:linear-gradient(110deg,#ff8615,#ff9c35);box-shadow:0 6px 18px #ff902725;font-weight:600;color:#fff}
+.primary-button:hover{filter:brightness(1.04)}.preset,.location-field,.route-card,.route-detail,.places-section,.walk-banner{border-radius:16px}
+.preset.active{background:#fff0df;border-color:#ffc385;color:#da832a}.location-field{background:#f5f7ef;border-color:#e8eadd}
+.map-stage{border-radius:24px;border-color:#e0e7da;box-shadow:none}.route-card.selected{border-color:#96c8f6;background:#f2f8ff;box-shadow:none}
+.area-pill{background:#edf6ff;border-color:#d9eaf7;color:#6486a2}.route-tag{background:#fff0df;color:#bd8d54}.secondary-button{background:#fff0df;color:#bd8d54;border-radius:10px}
+dialog{background:#fffbf5;border-radius:24px;border-color:#e8eadd}dialog::backdrop{background:#30403360}.sidebar-submit{border-color:#e8eadd}
+@media(max-width:1100px){.app-header{gap:14px;padding:0 18px}.header-end{display:none}.brand{margin-right:0}}
+@media(max-width:760px){.app-header{gap:10px;height:auto;min-height:72px;padding:13px 14px;flex-wrap:wrap}.route-home{padding:9px 12px;font-size:11px}.brand{margin-right:auto}.brand strong{font-size:20px}.brand-icon{width:32px;height:32px}.app-header nav{display:flex;flex-basis:100%;justify-content:space-between;height:32px;font-size:11px}.app-header .nav-active{border-bottom:0}.sidebar h1{font-size:25px}.map-heading h2{font-size:18px}.map-stage{border-radius:18px}.island-embedded .journey-steps{padding-top:10px;padding-bottom:10px}}

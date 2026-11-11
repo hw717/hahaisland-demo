@@ -1,0 +1,20 @@
+{
+  "sourceFile": "v6L3SP6qjCrXOfXKyBLTm2",
+  "sourceName": "新版",
+  "retrievedAt": "2026-10-26",
+  "method": "Original image resources exposed by the authorized read-only Figma viewer",
+  "assets": [
+    {
+      "file": "./healing-island.png",
+      "frame": "02 · 我的岛 / 疗愈岛",
+      "usage": "My Island healing card and thumbnail",
+      "sha256": "147727d422cea3c0f2d2e1c809e1ac2214a19463592da676fd4b1f2952431a12"
+    },
+    {
+      "file": "./launch-illustration.png",
+      "frame": "启动页",
+      "usage": "Reference asset; not used in the active UI",
+      "sha256": "88451c8b7a0eea854bbc37f68eb8fb6012412a764d28f4d78010c77b8077a818"
+    }
+  ]
+}

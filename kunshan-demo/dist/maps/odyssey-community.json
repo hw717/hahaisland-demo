@@ -1,0 +1,1072 @@
+{
+  "dataset": "tsinghua-poi",
+  "source": "清华20点位_单点词云与评论_简洁版.zip",
+  "importedPointCount": 20,
+  "pointCount": 28,
+  "points": {
+    "poi-01": {
+      "name": "二校门",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-01.png",
+      "totalComments": 13,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "其實二校門的背面也很好拍 還可以放上一些亂七八糟的配文",
+          "platform": "小红书",
+          "author": "Dellyyyyyy",
+          "date": "07-19中国台湾",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "清华园二校门是到清华大学必打卡的地方，任何时候你走到这个地方都会有许多游人在这里合影留念。可以说，清华园二校门代表着清华大学，是清华大学的标志性建筑和清华大学的象征。清华园二校门建在清华大学的主干道上。据资料介绍，清华园二校门建于1909着，是清华大学最早的主校门，二校门见证着清华的学子们刻苦学习的身影，见证着伟大清华自强不息的高贵品质。",
+          "platform": "携程",
+          "author": "Lxy60",
+          "date": "2019-10-20",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "清华园一一清华大学的二校门，也是清华大学最著名的标志性建筑，建筑风格欧式化，典雅壮观，游客很多，拍照的好地方，游客参观清华大学必到打卡之地。",
+          "platform": "携程",
+          "author": "三晋龙少",
+          "date": "2020-02-01",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "清华大学二校门是清华大学的标志性建筑，每天来这里参观留念的游人络绎不绝，人们是多么欣赏这座高等学府呀 ！今年由于疫情影响，清华大学暂停对外开放。二校门前安安静静，计划前来参观的同学及时了解清华大学对外开放的信息哦。",
+          "platform": "携程",
+          "author": "一生好游",
+          "date": "2020-08-07",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-02": {
+      "name": "大礼堂",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-02.png",
+      "totalComments": 96,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "欧式建筑风格",
+          "platform": "小红书",
+          "author": "水之道_易大🐑",
+          "date": "2025-05-16上海",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "这曾是我最喜欢的厕所！",
+          "platform": "小红书",
+          "author": "路边的电话",
+          "date": "2025-12-08美国",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "上后台的那个楼梯也很值得一拍",
+          "platform": "小红书",
+          "author": "清华二胎奶爸T-T（延毕版）",
+          "date": "2025-12-07北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "哈利波特的感觉？",
+          "platform": "小红书",
+          "author": "小红薯66A7BA9F",
+          "date": "2025-12-07北京",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-03": {
+      "name": "清华学堂",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-03.png",
+      "totalComments": 16,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "绝对你的出片宝地",
+          "platform": "小红书",
+          "author": "漏塔西士",
+          "date": "01-11北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "很出片的地方",
+          "platform": "小红书",
+          "author": "非著名摄影",
+          "date": "01-10北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "是的 还好没人在里面出片 不然我估计憋不出论文了",
+          "platform": "小红书",
+          "author": "漏塔西士",
+          "date": "01-10北京",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "不明白为啥要放个价格在这里，T大是不收门票的，但是进校门的时候有可能会被保安拦住要求出示学生证。 T大有东门、西门、南门、北门、东北门、西南门等几个门，游客进入比较多的应该是东门和西门。对了，说一句，东门朝南开，是的你没看错……朝东开的门我们叫它东北门…… 逛园子的话，东门进西门出或者西门进东门出是个不错的选择，“著名景点”如主楼，二校门，清华学堂，图书馆，水木清华，荷塘月色等，都在东西主干道两侧。 有四个时间段比较适合逛园子，分……",
+          "platform": "去哪儿",
+          "author": "Z三公子",
+          "date": "2015-12-08 13:47",
+          "excerpt": true
+        }
+      ],
+      "generated": false
+    },
+    "poi-04": {
+      "name": "水木清华",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-04.png",
+      "totalComments": 18,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "水木清华好漂亮昨天去了忘了去这",
+          "platform": "小红书",
+          "author": "磕学家啥都磕",
+          "date": "08-30北京",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "水木清华是清华大学著名的景点。一幢清朗秀丽的古建筑在荷塘边，非常典雅精致，水木清华也是清华大学的象征，是游园清必去的打卡点。虽然到清华大学已经天黑了，但抑制不住内心的兴奋和激动，沿着近春园边的荷塘来到了水木清华，由于光线不好照的照片偏黑，但是心中的水木清华是那样的典雅精致。那样的神秘。",
+          "platform": "携程",
+          "author": "Lxy60",
+          "date": "2019-10-21",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "水木清华是一座垂杨映着的秀雅古建筑，正额“水木清华”四字，庄美挺秀，据说是康熙皇帝的御笔。正中朱柱上悬有清道光进士，咸、同、光三代礼部侍郎殷兆镛撰书的名联。 水木清华面前的池塘，荷叶田田，把水木清华衬托的唯美秀丽，朱自清先生的雕塑像立于池塘北岸，让人联想起先生的《荷塘月色》……水木清华的荷塘也被清华学子选为读书学习和小憩之地。",
+          "platform": "携程",
+          "author": "一生好游",
+          "date": "2020-08-07",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "水木清华，人才辈出，在这座象牙塔尖的国内最高学府，不仅学术水平世界一流，景色也在世界级名校中首屈一指。有幸参加了5019年清华大学的毕业典礼，见证了一拨菁英走向社会，场面震撼激动。清华学堂，水木清华，大礼堂，荷塘月色。。。宛如把你带入皇家园林，能在此学习，实现人生梦想，期待清华园在世界名校中勇往直前，砥砺奋进。",
+          "platform": "携程",
+          "author": "XC诺维治",
+          "date": "2019-11-04",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-05": {
+      "name": "近春园",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-05.png",
+      "totalComments": 7,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "感觉照的荷塘有些小，希望有全景镜头",
+          "platform": "小红书",
+          "author": "🐿书店图书馆分享",
+          "date": "03-14北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "其实是个岛，周边一圈湖和护城河差不多，都不宽。",
+          "platform": "小红书",
+          "author": "沉香越千年",
+          "date": "03-14北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "很多年以前的夏日里曾去过，就是走马观荷花，不知其所以然。那个时候清华园随便进，经常去。谢谢你的分享，长见识了。",
+          "platform": "小红书",
+          "author": "梦里不知身是客",
+          "date": "03-13北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "据说荷塘月色的小煤屑路是湖东岸，荒岛没修亭子前那里确实有条两人宽的小土路。太偏了，都不怎么去那边玩儿。",
+          "platform": "小红书",
+          "author": "孤舟",
+          "date": "03-13新加坡",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-06": {
+      "name": "工字厅",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-06.png",
+      "totalComments": 6,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "冬天能冻死人",
+          "platform": "小红书",
+          "author": "小红薯61FF8FCD",
+          "date": "2025-04-26北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "一点也不爽",
+          "platform": "小红书",
+          "author": "爱雨天的小土豆",
+          "date": "2025-04-27北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "原来呆了那么多年，没觉得怎么样。现在看看，有点公园的感觉",
+          "platform": "小红书",
+          "author": "森乐净水-寂夜清风",
+          "date": "2025-04-27北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "就是公园里办公的感觉",
+          "platform": "小红书",
+          "author": "清华摸鱼日志📔",
+          "date": "2025-04-27北京",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-07": {
+      "name": "图书馆老馆",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-07.png",
+      "totalComments": 9,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "并非最老，老馆一期一般不开",
+          "platform": "小红书",
+          "author": "momo",
+          "date": "01-26贵州",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "阅览室是在二层，水房和厕所那才是一层",
+          "platform": "小红书",
+          "author": "法硕节度使",
+          "date": "01-26北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "以前电脑不多自习教室不多的时候，老管因为全天没有课，可以沉浸式畅学，是兵家必争之地。",
+          "platform": "小红书",
+          "author": "tweetybunny2010",
+          "date": "05-09北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "这种灯不是民国谍战剧标配吗",
+          "platform": "小红书",
+          "author": "不踩空",
+          "date": "05-09北京",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-08": {
+      "name": "日晷",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-08.png",
+      "totalComments": 4,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "洗白白回来继续被游客蹭",
+          "platform": "小红书",
+          "author": "睡觉觉大宝宝",
+          "date": "2025-11-17北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "还有游客刻到此一游",
+          "platform": "小红书",
+          "author": "哈利波特拖着扫帚飞",
+          "date": "2025-11-18北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "今早看确实少了一点沧桑感",
+          "platform": "小红书",
+          "author": "Miumiu",
+          "date": "2025-11-17北京",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "如果每个人都有一个大学梦，那也许每个人曾经都会有过一个清华北大梦了。对于某些理工科的娃娃来说，也许清华的名头要大一点，作为我国最优秀的学府之一，来清华上学是多少学子的梦想呀，这里自然也成为了参观的地方。 其实清华园原来是圆明园的一部分，后来分离改名为清华园的！所以清华大学实际上是以前的皇家园林，你说能不好看么？清华大学作为一个学府，本身还是不收取门票的，但是来清华参观的人实在是太多了，每天那么多游客，自然会限流，一般需要查证或者登……",
+          "platform": "去哪儿",
+          "author": "QD大白",
+          "date": "2015-11-21 23:06",
+          "excerpt": true
+        }
+      ],
+      "generated": false
+    },
+    "poi-09": {
+      "name": "西体育馆",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-09.png",
+      "totalComments": 7,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "整体还是气膜好点，西馆又滑灯还晃",
+          "platform": "小红书",
+          "author": "北京北南京南",
+          "date": "06-19 天津",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "西体在我毕业前还是没地胶的，木地板，非常滑溜然后旁边两个大篮筐，还有各种体育活动都在西体开展比如毽球排球跆拳道，感觉是最好抢也最不喜欢的场馆了，宁可去气膜馆和综体晃眼睛",
+          "platform": "小红书",
+          "author": "爱吃番茄",
+          "date": "7天前江苏",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "西体有淋浴啊",
+          "platform": "小红书",
+          "author": "Zimu",
+          "date": "09-03北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "气膜挺好的就是个别场地有风，综体还好空调也开了估计被墙边的凳子挡住了，西体灯光感觉最好就是地胶一言难尽；综合下来最好的还是气膜，就在学生宿舍楼下，清华学生们的待遇太好了",
+          "platform": "小红书",
+          "author": "橘温暖茶",
+          "date": "6天前北京",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-10": {
+      "name": "科学馆",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-10.png",
+      "totalComments": 2,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "能查这么清楚，弱弱的问一句能查到图纸信息嘛？校庆专门想去拍张正面照，结果人太多了",
+          "platform": "小红书",
+          "author": "钢铁直男本钢",
+          "date": "2024-07-01陕西",
+          "excerpt": false
+        },
+        {
+          "type": "公开笔记",
+          "text": "科学馆上绿藤，今年已到房檐，日出一片阳光，今天已到窗前。 #清华大学 #摄影 #原创诗词 #大学校园 #校园摄影 #总要拍拍校园吧 #校园的一角 #我镜头下的校园 #我的美丽校园 #校园",
+          "platform": "小红书",
+          "author": "清华摄影小诗傅",
+          "date": "5天前 北京",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-11": {
+      "name": "闻亭",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-11.png",
+      "totalComments": 4,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "五几年的时候上课敲这个钟，后来校园大了，配了电铃 电闸就在这个钟边上的柱子上，敲一下钟，合一下闸",
+          "platform": "小红书",
+          "author": "群青",
+          "date": "05-06北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "上次就是这个钟把我鼻子撞破了@桉桉 @芊芊君子💫 @iluvu：） @梦游症",
+          "platform": "小红书",
+          "author": "一零零零",
+          "date": "05-08北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "我记得钟上还有几句佛教的语言，xx长转……",
+          "platform": "小红书",
+          "author": "momo",
+          "date": "05-07河北",
+          "excerpt": false
+        },
+        {
+          "type": "公开笔记",
+          "text": "水木清华园看点很多。其中，“水木清华”匾对面的小山上，有一座闻亭，就是为了纪念闻一多先生，而建造的亭子。 沿着【自清亭】上山，闻亭就在眼前。内有嘉靖年代的大钟一枚，匾上的“闻亭”二字，为闻先生当年同一级的潘光旦教授所书。亭外春花灿烂。 山另一侧就是清华运动场，要选个清净地方的读书，不论温度，这里是佳选。累了还可以走走。 #清华大学 #我的mini vlog",
+          "platform": "小红书",
+          "author": "翠翠小姐姐",
+          "date": "编辑于 2022-04-01",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-12": {
+      "name": "自清亭",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-12.png",
+      "totalComments": 7,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "去了一趟，没有看到，没看到景点标识",
+          "platform": "小红书",
+          "author": "小红薯690157F0",
+          "date": "2025-10-29北京",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "三月底了，清华的樱花开啦～在荷塘附近～",
+          "platform": "携程",
+          "author": "Jeffrey0122",
+          "date": "2021-03-22",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "景色漂亮宜人，趣味多样，性价比超高。充满文艺气息的好地方。",
+          "platform": "携程",
+          "author": "二胖儿四进藏",
+          "date": "2021-12-29",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "充满文化气息的地方，趣味性比较一般，性价比超高。",
+          "platform": "携程",
+          "author": "二胖儿四进藏",
+          "date": "2021-09-18",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-13": {
+      "name": "西南联大纪念碑",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-13.png",
+      "totalComments": 1,
+      "comments": [
+        {
+          "type": "公开笔记",
+          "text": "周末去学校上课，午饭路上偶然看到这个纪念碑。 上面写着： 刚毅坚卓。 这是西南联大的校训。 第一次看到这四个字的时候，其实只是觉得很有气势。 但工作多年以后，再回到校园，感受完全不一样。 ⸻ 以前读书的时候，总觉得学习就是： 考试。 拿成绩。 毕业。 找到一个好工作。 后来进入产业，才慢慢发现，真正困难的问题，往往没有标准答案。 技术路线怎么选？ 资源有限的时候，优先投入哪里？ 一个产品什么时候应该坚持，什么时候应该放弃？ 这些问……",
+          "platform": "小红书",
+          "author": "小Q的MBA日记",
+          "date": "07-27",
+          "excerpt": true
+        }
+      ],
+      "generated": false
+    },
+    "poi-14": {
+      "name": "古月堂",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-14.png",
+      "totalComments": 2,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "狮子在笑 是吧",
+          "platform": "小红书",
+          "author": "一人二猫小日常",
+          "date": "04-29福建",
+          "excerpt": false
+        },
+        {
+          "type": "公开游记",
+          "text": "在金黄的银杏树叶随风飘舞的深秋时节，我走进了让人心驰神往的清华。想起一个多月前，当来清华学习的文件下发到学校时，从不主动学习的我，毫不犹豫地报了名。那一刻，根本不介意一个月学习时间的漫长，也暂时忘却了是怎样的一个清华学习的未知的压力；那一刻，只是想到了英国探险家乔治·马洛里在登山界被奉为圣经般的那句名言：Because it’s there .这样的冲动、向往，对最高学府殿堂、教育最高点的虔诚和憧憬，缘起于朱自清先生的那篇《荷塘月……",
+          "platform": "美篇",
+          "author": "方昭",
+          "date": "2019-11-21T17:55:19+08:00",
+          "excerpt": true
+        }
+      ],
+      "generated": false
+    },
+    "poi-15": {
+      "name": "新清华学堂",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-15.png",
+      "totalComments": 10,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "新清最有性价比的是一楼侧边脚到正面去，尤其这种卖不好的演出",
+          "platform": "小红书",
+          "author": "Ni！",
+          "date": "05-10 北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "是这样的 但是新清的起坡度好低 有时候正面还不如过道位😇",
+          "platform": "小红书",
+          "author": "AAA潘多拉布雷克",
+          "date": "05-10 北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "回复 AAA潘多拉布雷克 : 主要它音效也不太好这种有声乐的音乐会还是得正面，去年这个团和三个假声男高音来的时候我脚到正面听感舒服多了",
+          "platform": "小红书",
+          "author": "Ni！",
+          "date": "05-10 北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "回复 Ni！ : 而且感觉二楼不如一楼的声音好",
+          "platform": "小红书",
+          "author": "混沌。。。",
+          "date": "05-10 北京",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-16": {
+      "name": "清华大学艺术博物馆",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-16.png",
+      "totalComments": 63,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "我那天从校园里窜到博物馆，差点没能再进去你到博物馆就等于出校了，立了个牌子在那里根本就没看到",
+          "platform": "小红书",
+          "author": "金枝满园",
+          "date": "06-02北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "好展",
+          "platform": "小红书",
+          "author": "習野路人",
+          "date": "07-21江苏",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "清华艺博公众号或者小程序买普通票即可",
+          "platform": "小红书",
+          "author": "Madame_X",
+          "date": "07-21北京",
+          "excerpt": false
+        },
+        {
+          "type": "平台点评",
+          "text": "清华大学艺术博物馆，是国家一级博物馆，位于北京市海淀区清华园1号校园内。最早是将近百年前成立的历史系考古硏究室，1999年中央工艺美术大学并入清华大学，艺术博物馆项目提到日程，2015年清华大学艺术博物馆峻工。2016年清华大学艺术博物馆落成。至今清华大学艺术博物馆已举办多次国内外艺术展，深受欢迎。",
+          "platform": "携程",
+          "author": "快乐的小飞哥啊",
+          "date": "2025-11-23",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-17": {
+      "name": "主楼",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-17.png",
+      "totalComments": 4,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "作战实验室",
+          "platform": "小红书",
+          "author": "James",
+          "date": "2025-11-16广东",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "如果能按原版建起来，绝对是清华园中靓丽的风景，现在的太平庸了。",
+          "platform": "小红书",
+          "author": "一笑而过",
+          "date": "2025-11-05北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "官气太足",
+          "platform": "小红书",
+          "author": "DOMINO",
+          "date": "2025-11-05美国",
+          "excerpt": false
+        },
+        {
+          "type": "公开游记",
+          "text": "在金黄的银杏树叶随风飘舞的深秋时节，我走进了让人心驰神往的清华。想起一个多月前，当来清华学习的文件下发到学校时，从不主动学习的我，毫不犹豫地报了名。那一刻，根本不介意一个月学习时间的漫长，也暂时忘却了是怎样的一个清华学习的未知的压力；那一刻，只是想到了英国探险家乔治·马洛里在登山界被奉为圣经般的那句名言：Because it’s there .这样的冲动、向往，对最高学府殿堂、教育最高点的虔诚和憧憬，缘起于朱自清先生的那篇《荷塘月……",
+          "platform": "美篇",
+          "author": "方昭",
+          "date": "2019-11-21T17:55:19+08:00",
+          "excerpt": true
+        }
+      ],
+      "generated": false
+    },
+    "poi-18": {
+      "name": "第六教学楼",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-18.png",
+      "totalComments": 13,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "超漂亮的六教",
+          "platform": "小红书",
+          "author": "Hhhali",
+          "date": "06-06 江苏",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "我也超爱六教",
+          "platform": "小红书",
+          "author": "睡得好的hahaha",
+          "date": "06-06 北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "感觉很少人来哈哈，只有期末周自习的人会多一些",
+          "platform": "小红书",
+          "author": "喵喵喵。",
+          "date": "06-06 北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "好美啊，第一张图我以为是国外的大学",
+          "platform": "小红书",
+          "author": "彡喆",
+          "date": "06-06 四川",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-19": {
+      "name": "新土木馆",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-19.png",
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "天天在人文楼，没想到隔壁的系馆风景这么好",
+          "platform": "小红书",
+          "author": "岩下维舟⚽",
+          "date": "2024-06-13 北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "还没进去过呢，酱紫好看",
+          "platform": "小红书",
+          "author": "momo",
+          "date": "2024-05-31 北京",
+          "excerpt": false
+        },
+        {
+          "type": "公开笔记",
+          "text": "第一次来新土木馆，唯一能想到的就是牢贵看看人家的系馆（ 天台旋转楼梯上方的门锁了，要是能再上一层应该会更好看。 p6是系馆周围的小路，恐高往下看就很刺激了，完全不敢想象在上面走。 #清华联创计划 #清华大学 #我的夏日生活大赏 #我拍下的今日天空 #随拍 #清凉一夏 #夏日校园 #夏日印象",
+          "platform": "小红书",
+          "author": "BeBr₂",
+          "date": "2024-05-30",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-20": {
+      "name": "紫荆学生公寓",
+      "wordCloud": "./assets/wordclouds/odyssey/poi-20.png",
+      "totalComments": 7,
+      "comments": [
+        {
+          "type": "评论区留言",
+          "text": "北方不适合外露式阳台，纬度高会采光差，风沙大刮走衣服，冬天封不严很冷，雾霾大阳台积灰。紫荆老宿舍就是外露式阳台，很多人都不喜欢洗衣机有公共的，没有独立浴室是空间不够+水管道不支持。紫荆宿舍23栋楼是同济设计院设计的，当时还拿过奖，现在看到处都是不合理的地方",
+          "platform": "小红书",
+          "author": "momo",
+          "date": "08-23 北京",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "这也太爽了",
+          "platform": "小红书",
+          "author": "Building酷酷",
+          "date": "08-24 河南",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "前紫22住户🙋 就得上别的楼层洗 3，6，9层有两台洗衣机",
+          "platform": "小红书",
+          "author": "郁天",
+          "date": "3天前 上海",
+          "excerpt": false
+        },
+        {
+          "type": "评论区留言",
+          "text": "我也是公路车，可以放在窗台，或者立起来放在门口",
+          "platform": "小红书",
+          "author": "工科小健将",
+          "date": "08-19北京",
+          "excerpt": false
+        }
+      ],
+      "generated": false
+    },
+    "poi-21": {
+      "name": "天文台",
+      "wordCloud": null,
+      "keywords": [
+        "星空",
+        "观测",
+        "夜色",
+        "科学",
+        "仰望",
+        "宇宙",
+        "清华园"
+      ],
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "演示留言",
+          "text": "夜色安静下来以后，这里很适合抬头看星星。",
+          "platform": "斓图 Demo",
+          "author": "漫游者01",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "把校园漫游和天文观测放在一起，感觉很浪漫。",
+          "platform": "斓图 Demo",
+          "author": "漫游者02",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "像素地图里的天文台很适合作为夜游终点。",
+          "platform": "斓图 Demo",
+          "author": "漫游者03",
+          "date": "本地样例",
+          "excerpt": false
+        }
+      ],
+      "generated": true
+    },
+    "poi-22": {
+      "name": "情人坡",
+      "wordCloud": null,
+      "keywords": [
+        "草坪",
+        "散步",
+        "晚风",
+        "朋友",
+        "日落",
+        "松弛",
+        "校园"
+      ],
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "演示留言",
+          "text": "草坪和晚风让人自然慢下来。",
+          "platform": "斓图 Demo",
+          "author": "漫游者01",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "适合晒太阳、聊天，也适合什么都不做。",
+          "platform": "斓图 Demo",
+          "author": "漫游者02",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "从这里经过，总能感到校园生活很松弛。",
+          "platform": "斓图 Demo",
+          "author": "漫游者03",
+          "date": "本地样例",
+          "excerpt": false
+        }
+      ],
+      "generated": true
+    },
+    "poi-23": {
+      "name": "荷塘",
+      "wordCloud": null,
+      "keywords": [
+        "荷花",
+        "月色",
+        "夏夜",
+        "倒影",
+        "朱自清",
+        "清风",
+        "水岸"
+      ],
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "演示留言",
+          "text": "夏天沿着水边走一圈，风和倒影都很舒服。",
+          "platform": "斓图 Demo",
+          "author": "漫游者01",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "一提到荷塘，就会想到月色和清华园的文学记忆。",
+          "platform": "斓图 Demo",
+          "author": "漫游者02",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "像素地图把荷叶和水面做得很有层次。",
+          "platform": "斓图 Demo",
+          "author": "漫游者03",
+          "date": "本地样例",
+          "excerpt": false
+        }
+      ],
+      "generated": true
+    },
+    "poi-24": {
+      "name": "紫荆操场",
+      "wordCloud": null,
+      "keywords": [
+        "跑步",
+        "夜跑",
+        "球场",
+        "活力",
+        "紫荆",
+        "训练",
+        "同伴"
+      ],
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "演示留言",
+          "text": "晚饭后绕操场跑几圈，是很熟悉的校园节奏。",
+          "platform": "斓图 Demo",
+          "author": "漫游者01",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "这里总有训练和比赛，气氛很有活力。",
+          "platform": "斓图 Demo",
+          "author": "漫游者02",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "从宿舍区过来方便，很适合临时约一场球。",
+          "platform": "斓图 Demo",
+          "author": "漫游者03",
+          "date": "本地样例",
+          "excerpt": false
+        }
+      ],
+      "generated": true
+    },
+    "poi-25": {
+      "name": "西大操场",
+      "wordCloud": null,
+      "keywords": [
+        "草地",
+        "运动",
+        "晨跑",
+        "看台",
+        "阳光",
+        "社团",
+        "校园"
+      ],
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "演示留言",
+          "text": "阳光好的时候，操场的开阔感特别明显。",
+          "platform": "斓图 Demo",
+          "author": "漫游者01",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "晨跑和社团活动让这里一直很有校园气息。",
+          "platform": "斓图 Demo",
+          "author": "漫游者02",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "适合从古建筑区散步过来，视野会突然打开。",
+          "platform": "斓图 Demo",
+          "author": "漫游者03",
+          "date": "本地样例",
+          "excerpt": false
+        }
+      ],
+      "generated": true
+    },
+    "poi-26": {
+      "name": "东大操场",
+      "wordCloud": null,
+      "keywords": [
+        "跑道",
+        "训练",
+        "比赛",
+        "青春",
+        "速度",
+        "夜灯",
+        "团队"
+      ],
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "演示留言",
+          "text": "跑道很适合用来测试摇杆的加速和转向。",
+          "platform": "斓图 Demo",
+          "author": "漫游者01",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "晚上亮灯以后，训练的人和校园夜景会叠在一起。",
+          "platform": "斓图 Demo",
+          "author": "漫游者02",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "比赛日的氛围很热烈，平时也适合自由活动。",
+          "platform": "斓图 Demo",
+          "author": "漫游者03",
+          "date": "本地样例",
+          "excerpt": false
+        }
+      ],
+      "generated": true
+    },
+    "poi-27": {
+      "name": "综合体育馆",
+      "wordCloud": null,
+      "keywords": [
+        "体育馆",
+        "赛事",
+        "看台",
+        "室内",
+        "运动",
+        "演出",
+        "集合"
+      ],
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "演示留言",
+          "text": "大型活动时这里很有聚场感。",
+          "platform": "斓图 Demo",
+          "author": "漫游者01",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "室内场馆让雨天也能继续运动。",
+          "platform": "斓图 Demo",
+          "author": "漫游者02",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "从地图上看是很醒目的现代建筑节点。",
+          "platform": "斓图 Demo",
+          "author": "漫游者03",
+          "date": "本地样例",
+          "excerpt": false
+        }
+      ],
+      "generated": true
+    },
+    "poi-28": {
+      "name": "北体育馆",
+      "wordCloud": null,
+      "keywords": [
+        "训练",
+        "场馆",
+        "北区",
+        "篮球",
+        "体能",
+        "课程",
+        "日常"
+      ],
+      "totalComments": 3,
+      "comments": [
+        {
+          "type": "演示留言",
+          "text": "北区同学上体育课和训练都很方便。",
+          "platform": "斓图 Demo",
+          "author": "漫游者01",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "场馆周边适合作为一条校园运动路线的终点。",
+          "platform": "斓图 Demo",
+          "author": "漫游者02",
+          "date": "本地样例",
+          "excerpt": false
+        },
+        {
+          "type": "演示留言",
+          "text": "位置相对安静，日常训练感比打卡感更强。",
+          "platform": "斓图 Demo",
+          "author": "漫游者03",
+          "date": "本地样例",
+          "excerpt": false
+        }
+      ],
+      "generated": true
+    }
+  }
+}

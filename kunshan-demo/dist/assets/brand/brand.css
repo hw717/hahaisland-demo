@@ -1,0 +1,56 @@
+/* Brand palette sampled from the supplied HahaIsland wordmark. */
+:root {
+  --brand-blue: #3d8cf2;
+  --brand-orange: #e68843;
+  --brand-blue-soft: #e3eeff;
+  --brand-orange-soft: #fff0e2;
+  --brand-blue-ink: #245ca3;
+  --sea: #a4c8f5;
+  --sea-deep: var(--brand-blue);
+}
+/* Island artwork keeps its own colors; service controls keep the brand palette
+   even when the island switcher updates the root theme dynamically. */
+body { --theme: var(--brand-blue); --theme-soft: var(--brand-blue-soft); }
+.brand { gap: .65rem; flex: 0 1 auto; min-width: 0; }
+.brand-icon { width: 2.8rem; height: 2.8rem; flex: none; image-rendering: auto; }
+.brand-type { display: flex; align-items: baseline; gap: 1.1rem; min-width: 0; }
+.brand-wordmark { display: block; width: 13.5rem; height: auto; flex: none; }
+.brand-tagline { color: var(--brand-blue-ink); font-size: .8rem; font-weight: 700; letter-spacing: .12em; white-space: nowrap; }
+.ocean-pattern { background-color: var(--sea); background-image: url('./pixel-ocean-blue.svg'); }
+.campus-map-view { background: rgba(61,140,242,.12); }
+.demo-badge, .debug-status { color: var(--brand-blue-ink); background: var(--brand-blue-soft); border-color: var(--brand-blue); }
+.debug-live-dot, .debug-status i { background: var(--brand-orange); }
+.nav-button.is-active, .map-back, .zoom-controls button:hover,
+.map-theme-button[aria-pressed="true"], .theme-button[aria-pressed="true"],
+.poi-filter[aria-pressed="true"] {
+  color: var(--brand-blue-ink); background: var(--brand-blue-soft); border-color: var(--brand-blue);
+  box-shadow: 2px 2px 0 var(--brand-blue);
+}
+.map-theme-button:hover, .theme-button:hover { background: var(--brand-orange-soft); }
+.apply-location, .primary-action, .map-action, .poi-task-action,
+.poi-locate-action, .nearby-task-prompt button, .nearby-task-prompt.is-in-range button,
+.task-map-action, .play-primary {
+  color: #342e2a; background: var(--brand-orange); border-color: #925024;
+  box-shadow: 2px 2px 0 #925024;
+}
+.apply-location:hover, .primary-action:hover, .map-action:hover,
+.poi-task-action:not(:disabled):hover, .nearby-task-prompt button:hover { background: #f09c5e; }
+.debug-actions button, .location-copy, .location-copy::before,
+.joystick-base { background: var(--brand-orange-soft); }
+.joystick-knob, .reference-map-toggle span, .poi-constellation-icon,
+.progress-track i { background: var(--brand-blue); }
+.map-view-header p, .location-debug-panel header p,
+.poi-explorer-toggle small, .nearby-task-prompt small,
+.reference-locator header small, .poi-detail-head small { color: var(--brand-blue-ink); }
+.nearby-task-prompt.is-in-range { background: var(--brand-orange-soft); box-shadow: 4px 4px 0 var(--brand-orange); }
+.location-beacon { background: var(--brand-orange-soft); }
+@media (max-width: 900px) {
+  .brand-type { gap: .3rem; flex-direction: column; align-items: flex-start; }
+  .brand-tagline { font-size: .65rem; }
+}
+@media (max-width: 680px) {
+  .brand-icon { width: 2.3rem; height: 2.3rem; }
+  .brand-wordmark { width: 10.5rem; }
+  .brand { gap: .45rem; }
+  .brand-tagline { font-size: .6rem; }
+}

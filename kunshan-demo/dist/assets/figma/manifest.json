@@ -1,0 +1,78 @@
+{
+  "home": {
+    "img": "./assets/figma/00e47.png",
+    "img1": "./assets/figma/dd8ef.png",
+    "imgUser": "./assets/figma/82106.svg",
+    "imgBookOpen": "./assets/figma/c63c7.svg",
+    "imgMap": "./assets/figma/170d9.svg",
+    "imgSettings": "./assets/figma/5f8ac.svg"
+  },
+  "login": {
+    "imgEllipse": "./assets/figma/2da26.png"
+  },
+  "character": {
+    "img": "./assets/figma/49a55.png",
+    "img1": "./assets/figma/7328c.png"
+  },
+  "theme": {
+    "img": "./assets/figma/dd8ef.png",
+    "img2": "./assets/figma/b0b5b.png",
+    "img1": "./assets/figma/a8df6.svg"
+  },
+  "profile": {
+    "imgInfp": "./assets/figma/ae44d.png"
+  },
+  "build": {},
+  "radial": {
+    "imgEllipse": "./assets/figma/be28d.svg",
+    "imgGroup": "./assets/figma/6d2c8.svg",
+    "img": "./assets/figma/a4493.svg",
+    "imgEllipse1": "./assets/figma/1420a.svg",
+    "imgFrame": "./assets/figma/f9ea8.svg",
+    "imgFrame1": "./assets/figma/2b932.svg",
+    "imgFrame2": "./assets/figma/7ceec.svg",
+    "imgFrame3": "./assets/figma/0b938.svg",
+    "imgFrame4": "./assets/figma/fb280.svg",
+    "imgEllipse2": "./assets/figma/0d084.svg",
+    "imgGroup1": "./assets/figma/1ff6e.svg",
+    "imgGroup2": "./assets/figma/bd12b.svg",
+    "imgGroup3": "./assets/figma/c8f49.svg",
+    "imgGroup4": "./assets/figma/245b2.svg",
+    "imgGroup5": "./assets/figma/670a3.svg"
+  },
+  "rooms": {
+    "imgEllipse": "./assets/figma/62c2d.png",
+    "imgEllipse1": "./assets/figma/a4ee0.png",
+    "img": "./assets/figma/79149.svg"
+  },
+  "lobby": {
+    "img": "./assets/figma/7328c.png",
+    "img1": "./assets/figma/49a55.png",
+    "imgFrame": "./assets/figma/5459d.svg"
+  },
+  "result": {
+    "img": "./assets/figma/ae44d.png",
+    "img1": "./assets/figma/3d199.png",
+    "img2": "./assets/figma/31ce1.png",
+    "img3": "./assets/figma/95962.png",
+    "img4": "./assets/figma/9e3a6.png",
+    "img5": "./assets/figma/de25b.png",
+    "img6": "./assets/figma/2fbb1.png",
+    "img7": "./assets/figma/cb61f.png"
+  },
+  "archive": {},
+  "scene": {
+    "img": "./assets/figma/a8f44.svg"
+  },
+  "build-tools": {
+    "img": "./assets/figma/c3857.svg",
+    "img1": "./assets/figma/e82ec.svg",
+    "img2": "./assets/figma/0cef0.svg",
+    "img3": "./assets/figma/e2290.svg"
+  },
+  "build-top": {},
+  "build-left": {},
+  "build-status": {},
+  "archive-content": {},
+  "archive-title": {}
+}

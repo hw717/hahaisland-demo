@@ -1,0 +1,42 @@
+/* Same-origin planner shell; redesign.css applies the current Figma UI skin. */
+.island-route-dialog {
+  width: min(96vw, 100rem);
+  max-width: none;
+  height: 94dvh;
+  max-height: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  color: var(--ink);
+  background: var(--paper);
+  border: var(--outline);
+  border-radius: 1rem;
+  box-shadow: .5rem .625rem 0 rgba(34,42,53,.35);
+}
+.island-route-dialog[open] { display: grid; grid-template-rows: auto minmax(0,1fr) auto; }
+.island-route-dialog::backdrop { background: rgba(37,55,66,.65); backdrop-filter: blur(.35rem); }
+.island-route-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .75rem 1rem; border-bottom: var(--outline); background: var(--brand-blue-soft, #e3eeff); }
+.island-route-header small { color: var(--brand-blue-ink, #245ca3); font-size: .6rem; font-weight: 900; }
+.island-route-header h2 { margin: .125rem 0 0; font-size: 1.125rem; }
+.island-route-back { padding: .625rem .875rem; color: #342e2a; background: var(--brand-orange, #e68843); border: var(--outline); border-radius: .5rem; cursor: pointer; font-size: .7rem; font-weight: 900; }
+.island-route-body { position: relative; min-height: 0; overflow: hidden; background: #fff; }
+.island-route-body iframe { display: block; width: 100%; height: 100%; border: 0; }
+.island-route-loading { position: absolute; inset: 0; z-index: 1; display: grid; place-content: center; gap: .5rem; padding: 1rem; text-align: center; background: var(--paper); }
+.island-route-loading b { font-size: 1rem; }
+.island-route-loading span { color: var(--ink-soft); font-size: .7rem; }
+.island-route-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .5rem 1rem; border-top: var(--outline); }
+.island-route-footer p { margin: 0; color: var(--ink-soft); font-size: .6rem; line-height: 1.5; }
+.island-route-footer a { flex: none; color: var(--brand-blue-ink, #245ca3); font-size: .65rem; font-weight: 900; }
+.island-route-shortcut { width: 100%; margin-bottom: 1rem; padding: .75rem; color: var(--brand-blue-ink, #245ca3); text-align: left; background: var(--brand-blue-soft, #e3eeff); border: var(--outline); border-radius: .625rem; cursor: pointer; }
+.island-route-shortcut b, .island-route-shortcut small { display: block; }
+.island-route-shortcut b { font-size: .8rem; }
+.island-route-shortcut small { margin-top: .25rem; font-size: .62rem; line-height: 1.5; }
+.profile-route-action { margin-top: 1rem; margin-bottom: 0; }
+@media (max-width: 680px) {
+  .island-route-dialog { width: calc(100vw - .5rem); height: calc(100dvh - .5rem); border-radius: .75rem; }
+  .island-route-header { gap: .5rem; padding: .625rem; }
+  .island-route-header h2 { font-size: 1rem; }
+  .island-route-back { padding: .5rem .625rem; font-size: .65rem; }
+  .island-route-footer { gap: .5rem; padding: .5rem .625rem; }
+  .island-route-footer p { font-size: .55rem; }
+}

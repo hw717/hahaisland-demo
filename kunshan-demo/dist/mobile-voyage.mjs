@@ -1,0 +1,39 @@
+import {SEA_PORTS,SEA_ZOOM,clampSeaZoom,followShipCamera,newVoyage,advanceShip,nearbyPort,pointDistance,waterRoute,waterAt} from './voyage-model.mjs';
+export function createVoyage({onDock,onMessage=()=>{}}){
+ const scene=document.getElementById('homeArt'),world=document.getElementById('seaWorld'),sprite=document.getElementById('voyageShip'),joystick=document.getElementById('seaJoystick'),knob=document.getElementById('seaKnob'),hint=document.getElementById('voyageHint'),primary=document.getElementById('voyagePrimary');
+ let saved=null;try{saved=JSON.parse(localStorage.getItem('hahaisland.mobile.voyage.v1'));}catch{}
+ const savedExploring=waterAt(saved)&&saved?.exploring===true;const initialZoom=savedExploring&&Number.isFinite(saved?.zoom)?clampSeaZoom(saved.zoom):10/3;
+ let ship=newVoyage(saved),active=false,raf=0,last=0,zoom=initialZoom,targetZoom=initialZoom,camera={x:ship.x,y:ship.y},exploring=savedExploring,target=null,path=[],pointer=null,gesture=null,input={x:0,y:0},keys=new Set(),near=null,lastHint='',moved=savedExploring;
+ let anchor=savedExploring?{x:201,y:510}:{x:216.5,y:557};
+ for(const port of SEA_PORTS){const hit=document.createElement('button');hit.type='button';hit.className='sea-island';hit.dataset.sailTo=port.id;hit.style.cssText=`left:${port.x}px;top:${port.y}px;width:${port.width}px;height:${port.height}px`;hit.setAttribute('aria-label',`驶向${port.name}`);const label=document.createElement('span');label.className='sea-island-name';label.textContent=port.name;hit.append(label);hit.addEventListener('click',e=>{e.stopPropagation();sailTo(port.id);});world.insertBefore(hit,sprite);}
+ const beacon=document.createElement('div');beacon.className='sea-destination-beacon';beacon.hidden=true;world.append(beacon);
+ function save(){try{localStorage.setItem('hahaisland.mobile.voyage.v1',JSON.stringify({x:ship.x,y:ship.y,exploring,zoom:clampSeaZoom(targetZoom)}));}catch{}}
+ function stopInput(){input={x:0,y:0};keys.clear();pointer=null;gesture=null;knob.style.transform='translate(0px,0px)';ship.vx=ship.vy=0;save();}
+ function startExploring(){exploring=true;if(!moved){moved=true;targetZoom=SEA_ZOOM.normal;}}
+ function steer(x,y){startExploring();target=null;path=[];input={x,y};}
+ function sailTo(id){const port=SEA_PORTS.find(p=>p.id===id);if(!port)return;const route=waterRoute(ship,port.dock);if(!route.length){onMessage('这边靠不了岸，换个方向试试');return;}startExploring();target=port;path=route;input={x:0,y:0};keys.clear();targetZoom=1.3;beacon.hidden=false;beacon.style.transform=`translate(${port.dock.x}px,${port.dock.y}px)`;updateStatus();}
+ function updateStatus(){near=nearbyPort(ship);const markedPort=target||near;beacon.hidden=!markedPort;if(markedPort)beacon.style.transform=`translate(${markedPort.dock.x}px,${markedPort.dock.y}px)`;let text=near?`已靠岸 · ${near.name}`:target?`正在驶向${target.name}`:'在五岛之间，用摇杆或方向键航行';if(text!==lastHint){hint.textContent=text;lastHint=text;}
+ primary.textContent=near?`登上${near.name}`:'规划探索';primary.dataset.action=near?'dock-island':'preferences';scene.dataset.near=near?.id||'';
+ }
+ function render(){const view=followShipCamera(ship,zoom,anchor);zoom=view.zoom;anchor=view.anchor;camera={x:view.x,y:view.y};world.style.transform=`translate(${view.translateX}px,${view.translateY}px) scale(${zoom})`;sprite.style.transform=`translate(${ship.x}px,${ship.y}px)`;sprite.style.setProperty('--ship-lean',`${Math.max(-6,Math.min(6,ship.vx*.04))}deg`);scene.style.setProperty('--sea-zoom',zoom);scene.classList.toggle('is-sailing',Math.hypot(ship.vx,ship.vy)>8);}
+ function tick(now){raf=0;if(!active)return;const dt=last?Math.min(.05,(now-last)/1000):.016;last=now;const paused=document.hidden||!!document.querySelector('dialog[open]');if(!paused){let control={...input};const keyInput={x:Number(keys.has('arrowright')||keys.has('d'))-Number(keys.has('arrowleft')||keys.has('a')),y:Number(keys.has('arrowdown')||keys.has('s'))-Number(keys.has('arrowup')||keys.has('w'))};if(keyInput.x||keyInput.y){startExploring();target=null;path=[];control=keyInput;}else if(path.length){while(path.length&&pointDistance(ship,path[0])<9)path.shift();if(path.length){const d=pointDistance(ship,path[0]);control={x:(path[0].x-ship.x)/Math.max(1,d),y:(path[0].y-ship.y)/Math.max(1,d)};}else{target=null;save();}}
+ ship=advanceShip(ship,control,dt);const ease=1-Math.exp(-dt*5);zoom+=(targetZoom-zoom)*ease;
+ const desiredAnchor=exploring?{x:201,y:510}:{x:216.5,y:557};anchor.x+=(desiredAnchor.x-anchor.x)*ease;anchor.y+=(desiredAnchor.y-anchor.y)*ease;
+ updateStatus();render();}else{ship.vx=ship.vy=0;input={x:0,y:0};keys.clear();}raf=requestAnimationFrame(tick);}
+ function setActive(value){active=value;last=0;if(active){updateStatus();render();if(!raf)raf=requestAnimationFrame(tick);}else{if(raf)cancelAnimationFrame(raf);raf=0;stopInput();}}
+ function joystickMove(e){if(e.pointerId!==pointer)return;const r=joystick.getBoundingClientRect(),x=(e.clientX-r.left-r.width/2)/(r.width*.36),y=(e.clientY-r.top-r.height/2)/(r.height*.36),m=Math.max(1,Math.hypot(x,y));steer(x/m,y/m);knob.style.transform=`translate(${x/m*28}px,${y/m*28}px)`;}
+ joystick.addEventListener('pointerdown',e=>{if(e.button!==0)return;e.preventDefault();pointer=e.pointerId;joystick.setPointerCapture(e.pointerId);joystickMove(e);});
+ joystick.addEventListener('pointermove',joystickMove);
+ function endPointer(e){if(e.pointerId!==pointer)return;pointer=null;input={x:0,y:0};knob.style.transform='translate(0px,0px)';save();}
+ joystick.addEventListener('pointerup',endPointer);joystick.addEventListener('pointercancel',endPointer);joystick.addEventListener('lostpointercapture',endPointer);
+ sprite.addEventListener('pointerdown',e=>{if(e.button!==0)return;e.preventDefault();e.stopPropagation();gesture={id:e.pointerId,x:e.clientX,y:e.clientY};sprite.setPointerCapture(e.pointerId);});
+ sprite.addEventListener('pointermove',e=>{if(gesture?.id!==e.pointerId)return;const scale=scene.getBoundingClientRect().width/402,dx=(e.clientX-gesture.x)/scale,dy=(e.clientY-gesture.y)/scale,m=Math.max(28,Math.hypot(dx,dy));if(Math.hypot(dx,dy)>4)steer(dx/m,dy/m);});
+ function releaseShip(e){if(gesture?.id!==e.pointerId)return;gesture=null;input={x:0,y:0};save();}
+ sprite.addEventListener('pointerup',releaseShip);sprite.addEventListener('pointercancel',releaseShip);sprite.addEventListener('lostpointercapture',releaseShip);
+ scene.addEventListener('click',e=>{if(e.target.closest('button')||!exploring)return;const r=scene.getBoundingClientRect(),scale=r.width/402;const goal={x:((e.clientX-r.left)/scale-anchor.x)/zoom+camera.x,y:((e.clientY-r.top)/scale-anchor.y)/zoom+camera.y};if(!waterAt(goal)){onMessage('只能在五座岛之间的水域航行');return;}const route=waterRoute(ship,goal);if(route.length){target=null;path=route;targetZoom=clampSeaZoom(targetZoom);}});
+ window.addEventListener('keydown',e=>{if(!active||e.altKey||e.metaKey||e.ctrlKey||document.querySelector('dialog[open]')||e.target.matches('input,textarea,select,[contenteditable=true]'))return;const k=e.key.toLowerCase();if(['arrowup','arrowdown','arrowleft','arrowright','w','a','s','d'].includes(k)){e.preventDefault();keys.add(k);}});
+ window.addEventListener('keyup',e=>{keys.delete(e.key.toLowerCase());});window.addEventListener('blur',stopInput);window.addEventListener('pagehide',stopInput);document.addEventListener('visibilitychange',()=>{if(document.hidden)stopInput();});
+ const resize=new ResizeObserver(()=>{if(active)render();});resize.observe(scene);
+ updateStatus();render();
+ return {setActive,sailTo,zoomBy(direction){targetZoom=clampSeaZoom(targetZoom*(direction>0?1.3:1/1.3));},dock(){const port=nearbyPort(ship);if(!port){onMessage('先靠近一座岛屿');return;}target=null;path=[];input={x:0,y:0};ship.vx=ship.vy=0;save();onDock(port.id);},snapshot(){return {x:ship.x,y:ship.y,near:nearbyPort(ship)?.id||null,target:target?.id||null,zoom,active,camera:{...camera},screen:{...anchor}};}};
+}
